@@ -1,0 +1,36 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://olaalam.github.io/TodoLists",
+  "type": "module",
+
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "fontawesome": "^5.6.3",
+    "gh-pages": "^6.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sweetalert2": "^11.15.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "vite": "^6.0.5"
+  }
+}
